@@ -1,0 +1,92 @@
+* {                            /*Da la posicion a la barar de navegacion*/
+    padding: 0;
+    margin: 0;
+}
+
+body {                          /*Es el color del fondo de la pagina*/
+    background-color: white;
+}
+
+header {
+    display: flex;                  /*posiciona "y" de las palabras en la barra de navegacion*/
+    justify-content: space-between;     /*posiciona "x" de las palabras en la barra de navegacion*/
+    align-items: center;            /*Hace que las palabras queden centradas dentro de la barra*/
+    border: 4px solid rgb(0, 0, 0);   /*Pone la linea para crear la barra de navegacion*/
+    height: 100px;
+    background-color: #000;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}   
+ 
+.logo {                         /*Le da el tamaño al logo*/
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+.menu {                         /*Hace que el menu este acomodado bien arriba*/
+    display: flex;
+    list-style: none;
+}
+
+.menu a {                       /*Le da la fuente y el estilo a la letra del menu*/
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.publicación {                         /*Le da el tamaño al logo*/
+    width: 700px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 500px;
+}
+
+li {
+    list-style: none;
+}
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+list-style: none;
+overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+float: left;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+nav ul li a {
+display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+padding: 20px;
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li:hover {
+background: #66666e;
+}
+.contenido {
+padding-top: 80px;
+}
+
+.linea{
+    background-color: #000;
+    color:#000;
+    margin-top: 1%;
+
+}
+
+.fotos2{                         /*Hace que el menu este acomodado bien arriba*/
+    display: flex;
+    list-style: none;
+    height: 10px;
+    width: 10px;
+}
