@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF5CA  
+}
+
+.barra{
+    background-color: #000000;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 2%;
+        width: 95%;
+        margin-top: 0%;
+    }
+
+.fondo{
+    background-color: #000000;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 2%;
+        width: 95%;
+        height: 550px;
+        margin-top: 0%;
+        margin-bottom: 50%;
+    }
+
+.jugadores{
+    width: 900px;
+    margin: auto;
+}
+
+.jugadores img{
+    margin-left: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+    margin: 6%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;   
+}
+
+.menu a {                       /*Le da la fuente y el estilo a la letra del menu*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+header {
+    display: flex;                  /*posiciona "y" de las palabras en la barra de navegacion*/
+    justify-content: space-between;     /*posiciona "x" de las palabras en la barra de navegacion*/
+    align-items: center;            /*Hace que las palabras queden centradas dentro de la barra*/
+    border: 50px solid rgb(0, 0, 0);   /*Pone la linea para crear la barra de navegacion*/
+    height: 90px;
+}    
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+hr{
+    height:140%;
+    width: 206px;
+    margin-top: -55%;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+    position: absolute;
+    left: 87%;
+    
+}
+
+.jugadores img:hover{
+    transform: scale(1.2);
+}
+
+.nota {
+    height: 25%;
+    width: 25%;
+    margin-left: 300px;
+    margin-top: 50px;
+    display: block;
+    float: left;
+}
+
+.historia{
+    display: block;
+    float: left;
+    width: 550px;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
